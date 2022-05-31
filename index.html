@@ -27,15 +27,14 @@
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
 
     <link rel="stylesheet" href="./css/style1.css" />
+    <script src="./js/index.js"></script>
   </head>
   <body>
     <header class="header fixed-top" id="site-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg stroke navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <i class="fa-regular fa-handshake"></i> Masterwork</a
-            >
+            <a class="navbar-brand" href="./index.html"><i class="fa-regular fa-handshake"></i> Masterwork</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -53,7 +52,7 @@
             >
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="./index.html"
                     >Home</a
                   >
                 </li>
@@ -61,20 +60,43 @@
                   <a class="nav-link" href="./pages/About.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="./pages/Services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Pages
+                    <span><i class="fa fa-chevron-down"></i></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./pages/blogposts.html"
+                        >Blog post</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/blogsingle.html"
+                        >Blog single</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/landingpage.html"
+                        >Landing page</a
+                      >
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link"
-                    >Pages <i class="fa-solid fa-angle-down"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="./pages/Contactus.html">Contact</a>
                 </li>
                 <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
                   <a
                     class="btn btn-outline-primary theme-button"
-                    href="./pages/Contact.html"
+                    href="./pages/Contactus.html"
                     >Schedule a demo</a
                   >
                 </li>
@@ -222,7 +244,7 @@
         </div>
       </div>
     </div>
-    <div class="intro">
+    <div class="intro PY-5 ">
       <div class="container">
         <div class="row">
           <div class="col-6 intro-content">
@@ -237,7 +259,8 @@
               Maxime dolores amet voluptatum illo consequatur placeat fugit
               ducimus.
             </p>
-          </div>
+            <a href="./pages/About.html" class="btn btn-light theme-button">Read more</a>
+          </div>>
           <div class="col-6"></div>
         </div>
       </div>
@@ -639,7 +662,7 @@
               <div class="col-md-4 column">
                 <h3>Company</h3>
                 <ul class="footer-gd-16">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Home</a></li>
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="services.html">Services</a></li>
                   <li><a href="blog.html">Blog</a></li>
@@ -737,6 +760,9 @@
         </div>
       </div>
     </footer>
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -748,6 +774,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/owl.carousel.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/index.js"></script>
